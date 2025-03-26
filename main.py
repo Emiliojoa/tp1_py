@@ -8,18 +8,16 @@ def ram_num():
     print("Hola, soy un numero loco, adivina cual es el numero que estoy pensando")
 
     while not adivinado:
-        try:
             intento = int(input("Ingresa un numero: "))
             intentos += 1
             if intento == numero_loco:
                 adivinado = True
-                print("Felicidades, adivinaste el numero en {} intentos".format(intentos))
+                print(f"Felicidades, adivinaste el numero en {intentos} intentos")
             elif intento < numero_loco:
                 print("El numero es mayor")
             else:
                 print("El numero es menor") ## a partir de aca use chat porque me tiraba error y no enetendia el porque
-        except ValueError:
-            print("Ingresa un numero valido")
                 
-if __name__ == "__main__":
-    ram_num()
+# if __name__ == "__main__"#Por eso sin esta linea no me anda el  codigo y queria saber para que anda
+
+print(ram_num())
