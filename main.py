@@ -17,7 +17,6 @@ def ram_num():
                 print("El numero es mayor")
             else:
                 print("El numero es menor") ## a partir de aca use chat porque me tiraba error y no enetendia el porque
-                
-# if __name__ == "__main__"#Por eso sin esta linea no me anda el  codigo y queria saber para que anda
 
-print(ram_num())
+print(ram_num())##gracias
+
